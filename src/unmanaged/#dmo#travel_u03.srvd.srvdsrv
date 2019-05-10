@@ -1,0 +1,15 @@
+@EndUserText.label: 'Service Definition for Managing Travels'
+define service /DMO/TRAVEL_U03 {
+  expose /DMO/I_Travel_U03 as Travel;
+  expose /DMO/I_Booking_U03 as Booking;
+  expose /DMO/I_BookingSupplement_U03 as BookingSupplement;
+  expose /DMO/I_Supplement03 as Supplement;
+  expose /DMO/I_Supplement03Text03 as SupplementText;
+  expose /DMO/I_Customer03 as Passenger;
+  expose /DMO/I_Agency03 as TravelAgency;
+  expose I_Currency as Currency;
+  expose I_Country as Country;
+  expose /DMO/I_Carrier03 as Airline;
+  expose /DMO/I_Connection03 as FlightConnection;
+  expose /DMO/I_Flight03 as Flight;
+}
